@@ -8,7 +8,7 @@ body{
 .headerp{
     background-image: url(assets/header1.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     width: 100%;
     background-position: flex;
 }
