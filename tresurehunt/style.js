@@ -69,8 +69,8 @@ function verifybtn(){
   else if(currentText==="c#" && DAta==="NovaAI"){
     window.location.href = 'ques/ques7.html';
   }
-  else if(currentText==="" && DAta==="NovaAI"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="NovaAI"){
+    window.location.href = 'code.html';
   }
 
 
@@ -89,8 +89,8 @@ function verifybtn(){
   else if(currentText==="js" && DAta==="ZenithAI"){
     window.location.href = 'ques/ques8.html';
   }
-  else if(currentText==="" && DAta==="ZenithAI"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="ZenithAI"){
+    window.location.href = 'code.html';
   }
 
 
@@ -109,8 +109,8 @@ function verifybtn(){
   else if(currentText==="php" && DAta==="chatgpt"){
     window.location.href = 'ques/ques9.html';
   }
-  else if(currentText==="" && DAta==="chatgpt"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="chatgpt"){
+    window.location.href = 'code.html';
   }
 
 
@@ -129,8 +129,8 @@ function verifybtn(){
   else if(currentText==="sql" && DAta==="geminiAI"){
     window.location.href = 'ques/ques10.html';
   }
-  else if(currentText==="" && DAta==="geminiAI"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="geminiAI"){
+    window.location.href = 'code.html';
   }
   
 
@@ -149,8 +149,8 @@ function verifybtn(){
   else if(currentText==="go" && DAta==="figureAI"){
     window.location.href = 'ques/ques11.html';
   }
-  else if(currentText==="" && DAta==="figureAI"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="figureAI"){
+    window.location.href = 'code.html';
   }
   
 
@@ -169,8 +169,8 @@ function verifybtn(){
   else if(currentText==="f" && DAta==="copilot"){
     window.location.href = 'ques/ques12.html';
   }
-  else if(currentText==="" && DAta==="copilot"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="copilot"){
+    window.location.href = 'code.html';
   }
   
 
@@ -189,8 +189,8 @@ function verifybtn(){
   else if(currentText==="perl" && DAta==="soundraw"){
     window.location.href = 'ques/ques13.html';
   }
-  else if(currentText==="" && DAta==="soundraw"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="soundraw"){
+    window.location.href = 'code.html';
   }
   
 
@@ -209,8 +209,8 @@ function verifybtn(){
   else if(currentText==="rust" && DAta==="removebg"){
     window.location.href = 'ques/ques14.html';
   }
-  else if(currentText==="" && DAta==="removebg"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="removebg"){
+    window.location.href = 'code.html';
   }
   
 
@@ -229,8 +229,8 @@ function verifybtn(){
   else if(currentText==="f#" && DAta==="Midjourney"){
     window.location.href = 'ques/ques15.html';
   }
-  else if(currentText==="" && DAta==="Midjourney"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="Midjourney"){
+    window.location.href = 'code.html';
   }
   
 
@@ -249,8 +249,8 @@ function verifybtn(){
   else if(currentText==="fortran" && DAta==="h2oAI"){
     window.location.href = 'ques/ques16.html';
   }
-  else if(currentText==="" && DAta==="h2oAI"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="h2oAI"){
+    window.location.href = 'code.html';
   }
   
 
@@ -269,8 +269,8 @@ function verifybtn(){
   else if(currentText==="vb" && DAta==="copyai"){
     window.location.href = 'ques/ques18.html';
   }
-  else if(currentText==="" && DAta==="copyai"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="copyai"){
+    window.location.href = 'code.html';
   }
   
 
@@ -289,8 +289,8 @@ function verifybtn(){
   else if(currentText==="mouse" && DAta==="aixcoder"){
     window.location.href = 'ques/ques19.html';
   }
-  else if(currentText==="" && DAta==="aixcoder"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="aixcoder"){
+    window.location.href = 'code.html';
   }
   
 
@@ -309,8 +309,8 @@ function verifybtn(){
   else if(currentText==="monitor" && DAta==="PerplexityAI"){
     window.location.href = 'ques/ques20.html';
   }
-  else if(currentText==="" && DAta==="PerplexityAI"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="PerplexityAI"){
+    window.location.href = 'code.html';
   }
   
 
@@ -329,8 +329,8 @@ function verifybtn(){
   else if(currentText==="laptop" && DAta==="Salesforce"){
     window.location.href = 'ques/ques21.html';
   }
-  else if(currentText==="" && DAta==="Salesforce"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="Salesforce"){
+    window.location.href = 'code.html';
   }
   
 
@@ -349,8 +349,8 @@ function verifybtn(){
   else if(currentText==="speaker" && DAta==="Claude"){
     window.location.href = 'ques/ques22.html';
   }
-  else if(currentText==="" && DAta==="Claude"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="Claude"){
+    window.location.href = 'code.html';
   }
   
 
@@ -369,8 +369,8 @@ function verifybtn(){
   else if(currentText==="board" && DAta==="Jasper"){
     window.location.href = 'ques/ques23.html';
   }
-  else if(currentText==="" && DAta==="Jasper"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="Jasper"){
+    window.location.href = 'code.html';
   }
   
 
@@ -389,8 +389,8 @@ function verifybtn(){
   else if(currentText==="ac" && DAta==="Writesonic"){
     window.location.href = 'ques/ques24.html';
   }
-  else if(currentText==="" && DAta==="Writesonic"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="Writesonic"){
+    window.location.href = 'code.html';
   }
   
 
@@ -409,8 +409,8 @@ function verifybtn(){
   else if(currentText==="server" && DAta==="DataRobot"){
     window.location.href = 'ques/ques25.html';
   }
-  else if(currentText==="" && DAta==="DataRobot"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="DataRobot"){
+    window.location.href = 'code.html';
   }
   
 
@@ -429,8 +429,8 @@ function verifybtn(){
   else if(currentText==="system" && DAta==="HuggingFace"){
     window.location.href = 'ques/ques26.html';
   }
-  else if(currentText==="" && DAta==="HuggingFace"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="HuggingFace"){
+    window.location.href = 'code.html';
   }
   
 
@@ -449,8 +449,8 @@ function verifybtn(){
   else if(currentText==="cpu" && DAta==="Replicate"){
     window.location.href = 'ques/ques27.html';
   }
-  else if(currentText==="" && DAta==="Replicate"){
-    window.location.href = 'ques/ques1.html';
+  else if(currentText==="word" && DAta==="Replicate"){
+    window.location.href = 'code.html';
   }
   
   
