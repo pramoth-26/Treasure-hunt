@@ -1,0 +1,46 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'25</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br><h2 align="center" id="displayData"></h2>
+    </div>
+    <div class="form" >
+        <h2 id="ques" align="left">
+            "Write a method to concatenate two strings. <br> 
+            public static String concatenate(String s1, String s2) { <br>
+                return s1 + ________; <br>
+            }"
+            
+        </h2>       
+        <input type="text" placeholder="Answer" required="required" id="ans">
+        <button onclick="verify()">Submit</button>
+    </div>
+
+
+        <script>
+           
+            var loot
+            function verify()
+            {   
+                loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n==="s2" && DAta==="h2oAI")
+                {
+                    window.location.href = '../spot/mca.html';
+                }
+                else if(n==="s2" && DAta==="Replicate")
+                {
+                    window.location.href = '../spot/physics.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+    <script src="../style.js"></script>
+</body>
+</html>

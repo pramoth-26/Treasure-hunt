@@ -1,0 +1,47 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'25</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br><h2 align="center" id="displayData"></h2> 
+    </div>
+    <div class="form" >
+        <h2 id="ques" align="left">
+            var a=[1,2];<br>var b=a.slice();<br>b[0]=42; <br>console.log(a);
+        </h2>       
+        <input type="text" placeholder="Answer" required="required" id="ans">
+        <button onclick="verify()">Submit</button>
+    </div>
+
+
+        <script>
+           
+            var loot
+            function verify()
+            {   
+                loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n==="1,2" && DAta==="geminiAI")
+                {
+                    window.location.href = '../spot/bcom.html';
+                }
+                else if(n==="1,2" && DAta==="PerplexityAI")
+                {
+                    window.location.href = '../spot/mba.html';
+                }
+                else if(n==="1,2" && DAta==="Salesforce")
+                {
+                    window.location.href = '../spot/mca.html';
+                }
+                
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+    <script src="../style.js"></script>
+</body>
+</html>

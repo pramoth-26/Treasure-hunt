@@ -1,0 +1,45 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'25</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br><h2 align="center" id="displayData"></h2>
+    </div>
+    <div class="form" >
+        <h2 id="ques">
+            The _______ function is used to open a file in Python.
+        </h2>       
+        <input type="text" placeholder="Answer" required="required" id="ans">
+        <button onclick="verify()">Submit</button>
+    </div>
+
+        <script>
+           
+            var loot
+            function verify()
+            {   
+                loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n==="open" && DAta==="ZenithAI")
+                {
+                    window.location.href = '../spot/chemistry.html';
+                }
+                else if(n==="open" && DAta==="copilot")
+                {
+                    window.location.href = '../spot/bcom.html';
+                }
+                else if(n==="open" && DAta==="aixcoder")
+                {
+                    window.location.href = '../spot/physics.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+    <script src="../style.js"></script>
+</body>
+</html>

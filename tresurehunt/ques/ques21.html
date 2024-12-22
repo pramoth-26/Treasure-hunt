@@ -1,0 +1,54 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'25</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br><h2 align="center" id="displayData"></h2>
+    </div>
+    <div class="form" >
+        <h2 id="ques" align="left">
+            Print numbers from 1 to 10 using a loop. <br>
+             for ($i = 1; $i <= ________; $i++)  { <br>
+                echo $i . "" ""; <br>
+            }
+            
+        </h2>       
+        <input type="text" placeholder="Answer" required="required" id="ans">
+        <button onclick="verify()">Submit</button>
+    </div>
+
+
+        <script>
+           
+            var loot
+            function verify()
+            {   
+                loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n==="10" && DAta==="NovaAI")
+                {
+                    window.location.href = '../spot/chemistry.html';
+                }
+                else if(n==="10" && DAta==="copilot")
+                {
+                    window.location.href = '../spot/cs.html';
+                }
+                else if(n==="10" && DAta==="copyai")
+                {
+                    window.location.href = '../spot/mba.html';
+                }
+                else if(n==="10" && DAta==="Salesforce")
+                {
+                    window.location.href = '../spot/bcom.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+    <script src="../style.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'25</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br><h2 align="center" id="displayData"></h2> 
+    </div>
+    <div class="form" >
+        <h2 id="ques">
+            const x=NaN; <br>const y=NaN; <br>console.log(x===y);
+        </h2>       
+        <input type="text" placeholder="Answer" required="required" id="ans">
+        <button onclick="verify()">Submit</button>
+    </div>
+
+
+        <script>
+           
+            var loot
+            function verify()
+            {   
+                loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n==="false" && DAta==="copilot")
+                {
+                    window.location.href = '../spot/physics.html';
+                }
+                else if(n==="false" && DAta==="Claude")
+                {
+                    window.location.href = '../spot/cs.html';
+                }
+                else if(n==="false" && DAta==="Jasper")
+                {
+                    window.location.href = '../spot/english.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+    <script src="../style.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'25</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br>
+    </div>
+    <div class="form" >
+        <h2 id="ques" align="left">
+           
+        </h2>       
+        <input type="text" placeholder="Answer" required="required" id="ans">
+        <button onclick="verify()">Submit</button>
+    </div>
+
+
+        <script>
+           
+            var loot
+            function verify()
+            {   
+                loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n==="")
+                {
+                    window.location.href = '../spot/mca.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+    
+</body>
+</html>

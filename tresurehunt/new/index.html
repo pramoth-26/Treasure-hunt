@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Secure Application</h1>
+        <button id="start-btn" onclick="startApp()">Start</button>
+        <button id="logout-btn" onclick="logoutApp()" style="display: none;">Logout</button>
+        <p id="message"></p>
+        <!-- Password Dialog -->
+        <div id="password-dialog" style="display: none;">
+            <label for="password">Enter Password to Logout:</label>
+            <input type="password" id="password" placeholder="Password" />
+            <button onclick="validatePassword()">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

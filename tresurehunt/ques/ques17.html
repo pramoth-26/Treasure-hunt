@@ -1,0 +1,51 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'25</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br><h2 align="center" id="displayData"></h2>
+    </div>
+    <div class="form" >
+        <h2 id="ques" align="left">
+            "Check if a number is divisible by 3.<br> 
+            let num = 9;<br>
+            if (num % ________ === 0) {<br>
+                console.log(""Divisible by 3"");<br>
+            }"
+            
+        </h2>       
+        <input type="text" placeholder="Answer" required="required" id="ans">
+        <button onclick="verify()">Submit</button>
+    </div>
+
+
+        <script>
+           
+            var loot
+            function verify()
+            {   
+                loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n==="3" && DAta==="ZenithAI")
+                {
+                    window.location.href = '../spot/maths.html';
+                }
+                else if(n==="3" && DAta==="soundraw")
+                {
+                    window.location.href = '../spot/chemisrty.html';
+                }
+                else if(n==="3" && DAta==="Writesonic")
+                {
+                    window.location.href = '../spot/maths.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+  <script src="../style.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'24</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br>
+    </div>
+    <div class="form" >
+        <h2 id="quest"></h2>       
+            <input type="text" placeholder="Answer" required="required" id="ans" name="ans">
+          <button onclick="verify()">Submit</button>
+        </div>
+
+
+        <script>
+            ques=document.getElementById("quest")
+            console.log(ques.textContent)
+            ques.textContent="what is your name"
+            var loot
+            function verify()
+            {   loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n===".html")
+                {
+                 window.location.href = 'spot11.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+<script src="..style.js"></script>
+</body>
+</html>

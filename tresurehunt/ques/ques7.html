@@ -1,0 +1,50 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'25</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br><h2 align="center" id="displayData"></h2> 
+    </div>
+    <div class="form" >
+        <h2 id="ques">
+            2A11, 4D13, 12G17,  ? 
+        </h2>       
+        <input type="text" placeholder="Answer" required="required" id="ans">
+        <button onclick="verify()">Submit</button>
+    </div>
+
+
+        <script>
+           
+            var loot
+            function verify()
+            {   
+                loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n==="48J23" && DAta==="NovaAI")
+                {
+                    window.location.href = '../spot/bcomca.html';
+                }
+                else if(n==="48J23" && DAta==="soundraw")
+                {
+                    window.location.href = '../spot/mba.html';
+                }
+                else if(n==="48J23" && DAta==="Jasper")
+                {
+                    window.location.href = '../spot/maths.html';
+                }
+                else if(n==="48J23" && DAta==="Writesonic")
+                {
+                    window.location.href = '../spot/micro.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+    <script src="../style.js"></script>
+</body>
+</html>

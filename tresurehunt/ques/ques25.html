@@ -1,0 +1,53 @@
+<html>
+<head>
+    <!----------- Color code #OB4251, #87BBD7 ,#F2C864 ----------->
+    <title>KenIT'25</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body>
+    <div class="headerp">
+        <br><br><br><br><br><br><br><br><h2 align="center" id="displayData"></h2>
+    </div>
+    <div class="form" >
+        <h2 id="ques" align="left">
+            "Fill in the blank to find the maximum number in a list in python: <br>
+            numbers = [3, 5, 7, 2, 8] <br>
+            max_number = max (________)" <br>
+            
+        </h2>       
+        <input type="text" placeholder="Answer" required="required" id="ans">
+        <button onclick="verify()">Submit</button>
+    </div>
+
+
+        <script>
+           
+            var loot
+            function verify()
+            {   
+                loot=document.getElementById("ans")
+                n=String(loot.value);
+                if(n==="numbers" && DAta==="figureAI")
+                {
+                    window.location.href = '../spot/canteen.html';
+                }
+                else if(n==="numbers" && DAta==="h2oAI")
+                {
+                    window.location.href = '../spot/bba.html';
+                }
+                else if(n==="numbers" && DAta==="Claude")
+                {
+                    window.location.href = '../spot/physical.html';
+                }
+                else if(n==="numbers" && DAta==="DataRobot")
+                {
+                    window.location.href = '../spot/mba.html';
+                }
+                else {
+                alert('Wrong Answer Try Again');
+                }
+            }
+        </script>
+    <script src="../style.js"></script>
+</body>
+</html>
