@@ -340,7 +340,7 @@ function verifybtn(){
   else if(currentText==="java" && DAta==="Claude"){
     window.location.href = 'ques/ques5.html';
   }
-  else if(currentText==="r" && DAta==="Claude"){
+  else if(currentText==="R" && DAta==="Claude"){
     window.location.href = 'ques/ques6.html';
   }
   else if(currentText==="server" && DAta==="Claude"){
