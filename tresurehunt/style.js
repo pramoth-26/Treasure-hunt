@@ -357,7 +357,7 @@ function verifybtn(){
   else if(currentText==="fortran" && DAta==="Jasper"){
     window.location.href = 'ques/ques16.html';
   }
-  else if(currentText==="r" && DAta==="Jasper"){
+  else if(currentText==="R" && DAta==="Jasper"){
     window.location.href = 'ques/ques6.html';
   }
   else if(currentText==="c#" && DAta==="Jasper"){
