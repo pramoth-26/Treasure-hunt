@@ -69,7 +69,7 @@ function verifybtn(){
   else if(currentText==="c#" && DAta==="NovaAI"){
     window.location.href = 'ques/ques7.html';
   }
-  else if(currentText==="word" && DAta==="NovaAI"){
+  else if(currentText==="word1" && DAta==="NovaAI"){
     window.location.href = 'code.html';
   }
 
@@ -89,7 +89,7 @@ function verifybtn(){
   else if(currentText==="js" && DAta==="ZenithAI"){
     window.location.href = 'ques/ques8.html';
   }
-  else if(currentText==="word" && DAta==="ZenithAI"){
+  else if(currentText==="word2" && DAta==="ZenithAI"){
     window.location.href = 'code.html';
   }
 
@@ -109,7 +109,7 @@ function verifybtn(){
   else if(currentText==="php" && DAta==="chatgpt"){
     window.location.href = 'ques/ques9.html';
   }
-  else if(currentText==="word" && DAta==="chatgpt"){
+  else if(currentText==="word3" && DAta==="chatgpt"){
     window.location.href = 'code.html';
   }
 
@@ -129,7 +129,7 @@ function verifybtn(){
   else if(currentText==="sql" && DAta==="geminiAI"){
     window.location.href = 'ques/ques10.html';
   }
-  else if(currentText==="word" && DAta==="geminiAI"){
+  else if(currentText==="word4" && DAta==="geminiAI"){
     window.location.href = 'code.html';
   }
   
@@ -149,7 +149,7 @@ function verifybtn(){
   else if(currentText==="go" && DAta==="figureAI"){
     window.location.href = 'ques/ques11.html';
   }
-  else if(currentText==="word" && DAta==="figureAI"){
+  else if(currentText==="word5" && DAta==="figureAI"){
     window.location.href = 'code.html';
   }
   
@@ -169,7 +169,7 @@ function verifybtn(){
   else if(currentText==="f" && DAta==="copilot"){
     window.location.href = 'ques/ques12.html';
   }
-  else if(currentText==="word" && DAta==="copilot"){
+  else if(currentText==="word6" && DAta==="copilot"){
     window.location.href = 'code.html';
   }
   
@@ -189,7 +189,7 @@ function verifybtn(){
   else if(currentText==="perl" && DAta==="soundraw"){
     window.location.href = 'ques/ques13.html';
   }
-  else if(currentText==="word" && DAta==="soundraw"){
+  else if(currentText==="word7" && DAta==="soundraw"){
     window.location.href = 'code.html';
   }
   
@@ -209,7 +209,7 @@ function verifybtn(){
   else if(currentText==="rust" && DAta==="removebg"){
     window.location.href = 'ques/ques14.html';
   }
-  else if(currentText==="word" && DAta==="removebg"){
+  else if(currentText==="word8" && DAta==="removebg"){
     window.location.href = 'code.html';
   }
   
@@ -229,7 +229,7 @@ function verifybtn(){
   else if(currentText==="f#" && DAta==="Midjourney"){
     window.location.href = 'ques/ques15.html';
   }
-  else if(currentText==="word" && DAta==="Midjourney"){
+  else if(currentText==="word9" && DAta==="Midjourney"){
     window.location.href = 'code.html';
   }
   
@@ -249,7 +249,7 @@ function verifybtn(){
   else if(currentText==="fortran" && DAta==="h2oAI"){
     window.location.href = 'ques/ques16.html';
   }
-  else if(currentText==="word" && DAta==="h2oAI"){
+  else if(currentText==="word10" && DAta==="h2oAI"){
     window.location.href = 'code.html';
   }
   
@@ -269,7 +269,7 @@ function verifybtn(){
   else if(currentText==="vb" && DAta==="copyai"){
     window.location.href = 'ques/ques18.html';
   }
-  else if(currentText==="word" && DAta==="copyai"){
+  else if(currentText==="word11" && DAta==="copyai"){
     window.location.href = 'code.html';
   }
   
@@ -289,7 +289,7 @@ function verifybtn(){
   else if(currentText==="mouse" && DAta==="aixcoder"){
     window.location.href = 'ques/ques19.html';
   }
-  else if(currentText==="word" && DAta==="aixcoder"){
+  else if(currentText==="word12" && DAta==="aixcoder"){
     window.location.href = 'code.html';
   }
   
@@ -309,7 +309,7 @@ function verifybtn(){
   else if(currentText==="monitor" && DAta==="PerplexityAI"){
     window.location.href = 'ques/ques20.html';
   }
-  else if(currentText==="word" && DAta==="PerplexityAI"){
+  else if(currentText==="word13" && DAta==="PerplexityAI"){
     window.location.href = 'code.html';
   }
   
@@ -329,7 +329,7 @@ function verifybtn(){
   else if(currentText==="laptop" && DAta==="Salesforce"){
     window.location.href = 'ques/ques21.html';
   }
-  else if(currentText==="word" && DAta==="Salesforce"){
+  else if(currentText==="word14" && DAta==="Salesforce"){
     window.location.href = 'code.html';
   }
   
@@ -349,7 +349,7 @@ function verifybtn(){
   else if(currentText==="speaker" && DAta==="Claude"){
     window.location.href = 'ques/ques22.html';
   }
-  else if(currentText==="word" && DAta==="Claude"){
+  else if(currentText==="word15" && DAta==="Claude"){
     window.location.href = 'code.html';
   }
   
@@ -369,7 +369,7 @@ function verifybtn(){
   else if(currentText==="board" && DAta==="Jasper"){
     window.location.href = 'ques/ques23.html';
   }
-  else if(currentText==="word" && DAta==="Jasper"){
+  else if(currentText==="word16" && DAta==="Jasper"){
     window.location.href = 'code.html';
   }
   
@@ -389,7 +389,7 @@ function verifybtn(){
   else if(currentText==="ac" && DAta==="Writesonic"){
     window.location.href = 'ques/ques24.html';
   }
-  else if(currentText==="word" && DAta==="Writesonic"){
+  else if(currentText==="word17" && DAta==="Writesonic"){
     window.location.href = 'code.html';
   }
   
@@ -409,7 +409,7 @@ function verifybtn(){
   else if(currentText==="server" && DAta==="DataRobot"){
     window.location.href = 'ques/ques25.html';
   }
-  else if(currentText==="word" && DAta==="DataRobot"){
+  else if(currentText==="word18" && DAta==="DataRobot"){
     window.location.href = 'code.html';
   }
   
@@ -429,7 +429,7 @@ function verifybtn(){
   else if(currentText==="system" && DAta==="HuggingFace"){
     window.location.href = 'ques/ques26.html';
   }
-  else if(currentText==="word" && DAta==="HuggingFace"){
+  else if(currentText==="word19" && DAta==="HuggingFace"){
     window.location.href = 'code.html';
   }
   
@@ -449,7 +449,7 @@ function verifybtn(){
   else if(currentText==="cpu" && DAta==="Replicate"){
     window.location.href = 'ques/ques27.html';
   }
-  else if(currentText==="word" && DAta==="Replicate"){
+  else if(currentText==="word20" && DAta==="Replicate"){
     window.location.href = 'code.html';
   }
   
