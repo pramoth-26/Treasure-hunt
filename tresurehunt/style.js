@@ -154,7 +154,7 @@ function verifybtn(){
   }
   
 
-  else if(currentText==="r" && DAta==="copilot"){
+  else if(currentText==="R" && DAta==="copilot"){
     window.location.href = 'ques/ques6.html';
   }
   else if(currentText==="fortran" && DAta==="copilot"){
