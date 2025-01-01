@@ -5,13 +5,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.headerp{
-    background-image: url(assets/header5.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
-    width: 100%;
-    background-position: flex;
-}
 
 .form {
     top: 150px;
